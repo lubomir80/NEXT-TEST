@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
             <Header />
             {children}
             <TestBranch />
-            <footer className="bg-red-200">TEST</footer>
+            <footer className="bg-red-200">TEST TEST</footer>
          </body>
       </html>
    );
