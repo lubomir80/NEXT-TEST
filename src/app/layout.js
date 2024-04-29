@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import TestBranch from "./TestBranch";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
       <html lang="en">
          <body className={inter.className}>
             {children}
+            <TestBranch />
             <footer className="bg-red-200">TEST</footer>
          </body>
       </html>
