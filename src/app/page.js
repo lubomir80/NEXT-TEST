@@ -2,7 +2,8 @@
 export default function Home() {
    return (
       <main>
-         <p>TEST</p>
+         <h1>TEST</h1>
+         <div>Commit 1</div>
       </main>
    );
 }
